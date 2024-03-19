@@ -1,0 +1,21 @@
+pwd: print working dir
+ls: list files
+cd: change dir
+mkdir: make a new dir
+rm: remove/delete files
+nano: a very basic text editor
+Instance id: i-04219c0774dab3334
+
+Ip address: 44.234.33.118
+Run this command, if necessary, to ensure your key is not publicly viewable.
+ chmod 400 "bimm143_lisa.pem"
+
+Connect to your instance using its Public DNS:
+ ec2-44-234-33-118.us-west-2.compute.amazonaws.com
+
+Example:
+
+ ssh -i "bimm143_lisa.pem" ubuntu@ec2-44-234-33-118.us-west-2.compute.amazonaws.com
+
+
+
